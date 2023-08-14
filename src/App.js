@@ -169,7 +169,7 @@ function App() {
       <h2 className="text-center pb-12 text-5xl font-bold">Possible Wins</h2>
 
       <p className="text-center pb-4">The 'Possible Wins' app presents real-time soccer odds data from diverse leagues, highlighting matches with high winning potential. Users select their preferred league and access match details, team insights, match times, and advantageous odds. It's the go-to platform for discovering profitable betting opportunities.</p>
-
+      <p className="text-center pb-4 text-red-500 text-xs">Keep in mind that this analysis will be speculative and should not be used for betting decisions.</p>
         <select
           className="mb-4"
           value={selectedLeague}
